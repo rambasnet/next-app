@@ -5,5 +5,6 @@
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  assetPrefix: !debug ? '/next-app/' : '',
+  basePath: '/next-static-app',
+  assetPrefix: !debug ? '/next-static-app' : '',
 }
